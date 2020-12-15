@@ -1,0 +1,77 @@
+*
+    box-sizing: border-box
+body
+    font-family: sans-serif
+.header
+    background-color: #0050B3
+    padding: 6px 0px
+.header-block
+    max-width: 1200px
+    margin: auto
+    display: flex
+    align-items: center
+    justify-content: space-between
+.search-input
+    line-height: 22px
+    width: 336px
+    border: 1px solid #D9D9D9
+    border-radius: 4px
+    padding: 5px 30px 5px 12px
+    background-image: url(../img/search-icon.svg)
+    background-repeat: no-repeat
+    background-position: right 12px center
+.user
+    display: flex
+    align-items: center
+    &-avatar
+        margin-right: 8px
+    &-name
+        color: #ffffff
+        font-size: 14px
+        font-weight: 600
+.navigation
+    display: flex
+    align-items: center
+    &-panel
+        margin-left: 12px
+        display: flex
+        align-items: center
+    &-link
+        color: #ffffff
+        text-decoration: none
+        line-height: 22px
+        font-size: 14px
+        font-weight: 600
+        margin-left: 12px
+        display: flex
+        align-items: center
+        &::before
+            content: ''
+            width: 1px
+            height: 16px
+            background-color: #003A8C
+            margin-right: 12px
+        &:last-child::after
+            content: ''
+            width: 1px
+            height: 16px
+            background-color: #003A8C
+            margin-left: 12px
+.header-icon
+    fill: #002766
+    &:hover
+        fill: #ffffff
+.icon
+    &-link
+        margin-right: 17px
+        display: flex
+        align-items: center
+        &:last-child::before
+            content: ''
+            width: 1px
+            height: 16px
+            background-color: #003A8C
+            margin-right: 17px
+    &-panel
+        display: flex
+        padding-left: 17px
